@@ -1,0 +1,11 @@
+atlassian.net##button.css-yovyvj > span.css-1gd7hga
+atlassian.net##button[data-testid="issue-improve-issue-dropdown.improve-issue-dropdown--trigger"]
+atlassian.net##div._1e0c1txw._vchhusvi._gy1pu2gc._1p57u2gc._4cvr1h6o._2lx2vrvc._kqswh2mm > div
+atlassian.net##span[role][data-testid] > button[type]
+
+google.com###WWNEkf
+google.com###content-library-rail-image-synthesis-element
+google.com###docs-sidekick-button-container
+google.com##.FormulaBarContainerGeminiSummarizeButton
+google.com##.goog-control.instant-button[aria-label="Help me write"]
+google.com##.goog-control.instant-button[aria-label="Suggest edits"]
