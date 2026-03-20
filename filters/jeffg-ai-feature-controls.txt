@@ -2,22 +2,28 @@
 # ======================================== 
 # "AI" button to left of search bar in project / space view
 atlassian.net##button.css-yovyvj > span.css-1gd7hga
-# "Ask Rovo" button in top nav. Working 20260317.
+# "Ask Rovo" button in top nav. Working 20260317. May be specific to a top banner being present.
 atlassian.net##span._1e0c1bgi > nav._yyhy11wp._1e0c1txw._1bahh9n0._1ul9zwfg._1d2y1ris._glte1ris._15rip2n4._1gs5usvi._ndwch9n0 > div[role="list"] > span[role="listitem"]._19itglyw._vchhusvi._r06hglyw
+# "Ask Rovo" button in top nav. Working 20260319.
+atlassian.net##span[role="listitem"][data-testid="atlassian-navigation.ui.conversation-assistant.app-navigation-ai-mate"] > button[type="button"]
 # "Improve issue" button in issue card / side panel
 atlassian.net##div[role="presentation"] > button[data-testid="issue-improve-issue-dropdown.improve-issue-dropdown--trigger"]
+# Bottom-right AI floater button
+atlassian.net##div[role="presentation"] > div > button[type="button"][data-testid="platform-ai-button"]
 
 # Google Workspace
 # ========================================
-# Drive: "Ask Gemini" sparkle button between Settings cog and Apps waffle
-google.com###WWNEkf
-# Slides: "Help me visualize" button in right rail
-google.com###content-library-rail-image-synthesis-element
 # Docs: "Ask Gemini" sparkle button next to profile avatar
 google.com###docs-sidekick-button-container
+# Docs: "Help me write" button in floating pill, right margin
+google.com##.goog-control.instant-button[aria-label="Help me write"]
+# Docs: "Suggest edits" button in floating pill, right margin
+google.com##.goog-control.instant-button[aria-label="Suggest edits"]
+# Drive: "Insights from Gemini" button beneath folder filter controls
+google.com##[aria-label="Insights from Gemini"]
+# Drive: "Ask Gemini" sparkle button between Settings cog and Apps waffle
+google.com###WWNEkf
 # Sheets: "Summarize this data" button right of formula bar
 google.com##.FormulaBarContainerGeminiSummarizeButton
-# "Help me write" button in floating pill, right margin of Docs
-google.com##.goog-control.instant-button[aria-label="Help me write"]
-# "Suggest edits" button in floating pill, right margin of Docs
-google.com##.goog-control.instant-button[aria-label="Suggest edits"]
+# Slides: "Help me visualize" button in right rail
+google.com###content-library-rail-image-synthesis-element
